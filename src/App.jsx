@@ -2,13 +2,10 @@ import Formulaire from "./components/formulaire"
 
 function App() {
  
-  const handleChange = () => {
-    
-  }
 
   return (
     <main className="bg-black">
-     <Formulaire onChangeCity={handleChange}/>
+     <Formulaire/>
     </main>
   )
 }
